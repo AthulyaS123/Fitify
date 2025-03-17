@@ -1,0 +1,266 @@
+.image8Icon {
+    position: absolute;
+    top: 81px;
+    left: 116px;
+    width: 168px;
+    height: 168px;
+    object-fit: cover;
+}
+.mixMatchChild {
+    position: absolute;
+    top: 766px;
+    left: 0px;
+    background-color: #6a9c89;
+    width: 393px;
+    height: 86px;
+}
+.mixMatch1 {
+    position: absolute;
+    top: 34px;
+    left: 60px;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #666;
+    display: inline-block;
+    width: 273px;
+    height: 22px;
+}
+.cutIcon {
+    position: absolute;
+    top: 779px;
+    left: 223px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.wardrobeIcon {
+    position: absolute;
+    top: 779px;
+    left: 113px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.tuneIcon {
+    position: absolute;
+    top: 26px;
+    left: 16px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.groupChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #666;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+}
+.div {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+}
+.ellipseParent {
+    position: absolute;
+    top: 26px;
+    left: 347px;
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    color: #666;
+    font-family: 'Open Sans';
+}
+.heartIcon {
+    position: absolute;
+    top: 779px;
+    left: 16px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.closet {
+    position: absolute;
+    top: 825px;
+    left: 97px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-weight: 600;
+    display: inline-block;
+    width: 72px;
+    height: 33px;
+}
+.swipe {
+    position: absolute;
+    top: 825px;
+    left: 0px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-weight: 600;
+    display: inline-block;
+    width: 72px;
+    height: 33px;
+}
+.mixMatch2 {
+    position: absolute;
+    top: 825px;
+    left: 201px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #005c5c;
+    display: inline-block;
+    width: 84px;
+    height: 33px;
+}
+.lookbook {
+    position: absolute;
+    top: 825px;
+    left: 309px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-weight: 600;
+    display: inline-block;
+    width: 84px;
+    height: 33px;
+}
+.openBookIcon {
+    position: absolute;
+    top: 779px;
+    left: 333px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.moreThanIcon {
+    position: absolute;
+    top: 150px;
+    left: 332px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.moreThanIcon1 {
+    position: absolute;
+    top: 381px;
+    left: 336px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.moreThanIcon2 {
+    position: absolute;
+    top: 631px;
+    left: 333px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.moreThanIcon3 {
+    position: absolute;
+    top: 150px;
+    left: 41px;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+.moreThanIcon4 {
+    position: absolute;
+    top: 381px;
+    left: 31px;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+.moreThanIcon5 {
+    position: absolute;
+    top: 631px;
+    left: 41px;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+.labelText {
+    position: relative;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.stateLayer {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 24px;
+}
+.button {
+    position: absolute;
+    top: 703px;
+    left: 130px;
+    border-radius: 100px;
+    background-color: #6a9c89;
+    width: 134px;
+    height: 48px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-family: Roboto;
+}
+.save {
+    position: absolute;
+    top: 718px;
+    left: 161px;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 18px;
+}
+.image12Icon {
+    position: absolute;
+    top: 599px;
+    left: 117px;
+    width: 167px;
+    height: 94px;
+    object-fit: cover;
+}
+.image11Icon {
+    position: absolute;
+    top: 233px;
+    left: 71px;
+    width: 251px;
+    height: 386px;
+    object-fit: cover;
+}
+.mixMatch {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 852px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    font-family: Urbanist;
+}
+

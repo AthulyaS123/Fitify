@@ -1,0 +1,486 @@
+.closetPageChild {
+    position: absolute;
+    top: 189px;
+    left: 26px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    width: 103px;
+    height: 150px;
+}
+.closetPageItem {
+    position: absolute;
+    top: 189px;
+    left: 143px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    width: 103px;
+    height: 150px;
+}
+.closetPageInner {
+    position: absolute;
+    top: 189px;
+    left: 260px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    width: 103px;
+    height: 150px;
+}
+.rectangleDiv {
+    position: absolute;
+    top: 352px;
+    left: 26px;
+    border-radius: 20px;
+    background-color: #d9d9d9;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    width: 103px;
+    height: 148px;
+}
+.closetPageChild1 {
+    position: absolute;
+    top: 352px;
+    left: 143px;
+    border-radius: 20px;
+    background-color: #d9d9d9;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    width: 103px;
+    height: 148px;
+}
+.closetPageChild2 {
+    position: absolute;
+    top: 352px;
+    left: 260px;
+    border-radius: 20px;
+    background-color: #d9d9d9;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    width: 103px;
+    height: 148px;
+}
+.closetPageChild3 {
+    position: absolute;
+    top: 352px;
+    left: 26px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    width: 103px;
+    height: 148px;
+}
+.closetPageChild4 {
+    position: absolute;
+    top: 352px;
+    left: 143px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    width: 103px;
+    height: 148px;
+}
+.closetPageChild5 {
+    position: absolute;
+    top: 352px;
+    left: 260px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    width: 103px;
+    height: 148px;
+}
+.closetPageChild6 {
+    position: absolute;
+    top: 513px;
+    left: 26px;
+    border-radius: 20px;
+    background-color: #d9d9d9;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    width: 103px;
+    height: 150px;
+}
+.closetPageChild7 {
+    position: absolute;
+    top: 513px;
+    left: 143px;
+    border-radius: 20px;
+    background-color: #d9d9d9;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    width: 103px;
+    height: 150px;
+}
+.closetPageChild8 {
+    position: absolute;
+    top: 513px;
+    left: 260px;
+    border-radius: 20px;
+    background-color: #d9d9d9;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    width: 103px;
+    height: 150px;
+}
+.closetPageChild9 {
+    position: absolute;
+    top: 513px;
+    left: 26px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    width: 103px;
+    height: 150px;
+}
+.closetPageChild10 {
+    position: absolute;
+    top: 513px;
+    left: 143px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    width: 103px;
+    height: 150px;
+}
+.closetPageChild11 {
+    position: absolute;
+    top: 513px;
+    left: 260px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    width: 103px;
+    height: 150px;
+}
+.closetPageChild12 {
+    position: absolute;
+    top: 766px;
+    left: 0px;
+    background-color: #6a9c89;
+    width: 393px;
+    height: 86px;
+}
+.yourCloset {
+    position: absolute;
+    top: 34px;
+    left: 60px;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #666;
+    display: inline-block;
+    width: 273px;
+    height: 22px;
+}
+.cutIcon {
+    position: absolute;
+    top: 779px;
+    left: 223px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.wardrobeIcon {
+    position: absolute;
+    top: 779px;
+    left: 113px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.image2Icon {
+    position: absolute;
+    top: 219px;
+    left: 159px;
+    width: 70px;
+    height: 93px;
+    object-fit: cover;
+}
+.image3Icon {
+    position: absolute;
+    top: 217px;
+    left: 262px;
+    width: 98px;
+    height: 97px;
+    object-fit: cover;
+}
+.image4Icon {
+    position: absolute;
+    top: 381px;
+    left: 146px;
+    width: 95px;
+    height: 100px;
+    object-fit: cover;
+}
+.image9Icon {
+    position: absolute;
+    top: 547px;
+    left: 271px;
+    width: 81px;
+    height: 91px;
+    object-fit: cover;
+}
+.tuneIcon {
+    position: absolute;
+    top: 26px;
+    left: 16px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.groupChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #666;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+}
+.div {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+}
+.ellipseParent {
+    position: absolute;
+    top: 26px;
+    left: 347px;
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    color: #666;
+    font-family: 'Open Sans';
+}
+.heartIcon {
+    position: absolute;
+    top: 779px;
+    left: 16px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.image1Icon {
+    position: absolute;
+    top: 223px;
+    left: 32px;
+    width: 94px;
+    height: 92px;
+    object-fit: cover;
+}
+.image5Icon {
+    position: absolute;
+    top: 389px;
+    left: 36px;
+    width: 86px;
+    height: 88px;
+    object-fit: cover;
+}
+.image6Icon {
+    position: absolute;
+    top: 384px;
+    left: 279px;
+    width: 65px;
+    height: 94px;
+    object-fit: cover;
+}
+.image7Icon {
+    position: absolute;
+    top: 547px;
+    left: 34px;
+    width: 82px;
+    height: 96px;
+    object-fit: cover;
+}
+.image8Icon {
+    position: absolute;
+    top: 547px;
+    left: 147px;
+    width: 96px;
+    height: 95px;
+    object-fit: cover;
+}
+.removeIcon {
+    position: absolute;
+    top: 700px;
+    left: 331px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.closet {
+    position: absolute;
+    top: 825px;
+    left: 97px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #005c5c;
+    display: inline-block;
+    width: 72px;
+    height: 33px;
+}
+.swipe {
+    position: absolute;
+    top: 825px;
+    left: 0px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-weight: 600;
+    display: inline-block;
+    width: 72px;
+    height: 33px;
+}
+.mixNMatch {
+    position: absolute;
+    top: 825px;
+    left: 201px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-weight: 600;
+    display: inline-block;
+    width: 84px;
+    height: 33px;
+}
+.lookbook {
+    position: absolute;
+    top: 825px;
+    left: 309px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-weight: 600;
+    display: inline-block;
+    width: 84px;
+    height: 33px;
+}
+.openBookIcon {
+    position: absolute;
+    top: 779px;
+    left: 333px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.frameDiv {
+    position: absolute;
+    top: 232px;
+    left: 132px;
+    width: 94px;
+    height: 96px;
+    overflow: hidden;
+}
+.arrowIcon {
+    position: absolute;
+    top: 725px;
+    left: 195px;
+    max-height: 100%;
+    width: 127px;
+}
+.closetPageChild13 {
+    position: absolute;
+    top: 692px;
+    left: 195px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 33px;
+    object-fit: contain;
+}
+.womensTShirtIcon {
+    position: absolute;
+    top: 91px;
+    left: 63px;
+    width: 40px;
+    height: 25px;
+    object-fit: cover;
+}
+.closetPageChild14 {
+    position: absolute;
+    top: 78px;
+    left: 20px;
+    border-radius: 20px;
+    background-color: #b1d1b3;
+    width: 353px;
+    height: 52px;
+}
+.closetPageChild15 {
+    position: absolute;
+    top: 78px;
+    left: 20px;
+    border-radius: 20px;
+    background-color: #6a9c89;
+    width: 130px;
+    height: 52px;
+}
+.womensTShirtIcon1 {
+    position: absolute;
+    top: 84px;
+    left: 64px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.trainersIcon {
+    position: absolute;
+    top: 83px;
+    left: 290px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.trousersIcon {
+    position: absolute;
+    top: 83px;
+    left: 177px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.closetPageChild16 {
+    position: absolute;
+    top: 301px;
+    left: 374px;
+    border-radius: 15px;
+    background-color: #d9d9d9;
+    width: 5px;
+    height: 250px;
+}
+.closetPageChild17 {
+    position: absolute;
+    top: 456px;
+    left: 374px;
+    border-radius: 15px;
+    background-color: #bcbcbc;
+    width: 5px;
+    height: 95px;
+}
+.closetPage {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 852px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    font-family: Urbanist;
+}
+
