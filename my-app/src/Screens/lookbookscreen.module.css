@@ -1,0 +1,344 @@
+.lookbookChild {
+    position: absolute;
+    top: 766px;
+    left: 0px;
+    background-color: #6a9c89;
+    width: 393px;
+    height: 86px;
+}
+.yourLookbook {
+    position: absolute;
+    top: 32px;
+    left: 64px;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #666;
+    display: inline-block;
+    width: 273px;
+    height: 22px;
+}
+.cutIcon {
+    position: absolute;
+    top: 779px;
+    left: 223px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.wardrobeIcon {
+    position: absolute;
+    top: 779px;
+    left: 113px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.tuneIcon {
+    position: absolute;
+    top: 24px;
+    left: 16px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.groupChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #666;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+}
+.div {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+}
+.ellipseParent {
+    position: absolute;
+    top: 24px;
+    left: 54px;
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    color: #666;
+    font-family: 'Open Sans';
+}
+.heartIcon {
+    position: absolute;
+    top: 779px;
+    left: 16px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.closet {
+    position: absolute;
+    top: 825px;
+    left: 97px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-weight: 600;
+    display: inline-block;
+    width: 72px;
+    height: 33px;
+}
+.swipe {
+    position: absolute;
+    top: 825px;
+    left: 0px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-weight: 600;
+    display: inline-block;
+    width: 72px;
+    height: 33px;
+}
+.mixMatch {
+    position: absolute;
+    top: 825px;
+    left: 201px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-weight: 600;
+    display: inline-block;
+    width: 84px;
+    height: 33px;
+}
+.lookbook1 {
+    position: absolute;
+    top: 825px;
+    left: 309px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #005c5c;
+    display: inline-block;
+    width: 84px;
+    height: 33px;
+}
+.openBookIcon {
+    position: absolute;
+    top: 779px;
+    left: 333px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.save {
+    position: absolute;
+    top: 718px;
+    left: 161px;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 18px;
+}
+.lookbookItem {
+    position: absolute;
+    top: 71px;
+    left: 39px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    width: 154px;
+    height: 320px;
+}
+.image8Icon {
+    position: absolute;
+    top: 81px;
+    left: 76px;
+    width: 83px;
+    height: 82px;
+    object-fit: cover;
+}
+.image12Icon {
+    position: absolute;
+    top: 334px;
+    left: 76px;
+    width: 82px;
+    height: 46px;
+    object-fit: cover;
+}
+.image11Icon {
+    position: absolute;
+    top: 156px;
+    left: 54px;
+    width: 123px;
+    height: 189px;
+    object-fit: cover;
+}
+.lookbookInner {
+    position: absolute;
+    top: 416px;
+    left: 39px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    width: 154px;
+    height: 320px;
+}
+.image7Icon {
+    position: absolute;
+    top: 420px;
+    left: 77px;
+    width: 71px;
+    height: 83px;
+    object-fit: cover;
+}
+.rectangleDiv {
+    position: absolute;
+    top: 416px;
+    left: 209px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    width: 154px;
+    height: 320px;
+}
+.lookbookChild1 {
+    position: absolute;
+    top: 71px;
+    left: 209px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    width: 154px;
+    height: 320px;
+}
+.image2Icon {
+    position: absolute;
+    top: 83px;
+    left: 256px;
+    width: 60px;
+    height: 80px;
+    object-fit: cover;
+}
+.lookbookChild2 {
+    position: absolute;
+    top: 291px;
+    left: 379px;
+    border-radius: 15px;
+    background-color: #d9d9d9;
+    width: 5px;
+    height: 250px;
+}
+.lookbookChild3 {
+    position: absolute;
+    top: 446px;
+    left: 379px;
+    border-radius: 15px;
+    background-color: #bcbcbc;
+    width: 5px;
+    height: 95px;
+}
+.image10Icon {
+    position: absolute;
+    top: 422px;
+    left: 250px;
+    width: 72px;
+    height: 81px;
+    object-fit: cover;
+}
+.image14Icon {
+    position: absolute;
+    top: 501px;
+    left: 244px;
+    width: 84px;
+    height: 177px;
+    object-fit: cover;
+}
+.image16Icon {
+    position: absolute;
+    top: 340px;
+    left: 259px;
+    width: 53px;
+    height: 40px;
+    object-fit: contain;
+}
+.image15Icon {
+    position: absolute;
+    top: 501px;
+    left: 76px;
+    width: 77px;
+    height: 175px;
+    object-fit: cover;
+}
+.image19Icon {
+    position: absolute;
+    top: 685px;
+    left: 84px;
+    width: 64px;
+    height: 49px;
+    object-fit: contain;
+}
+.downloadingUpdatesIcon {
+    position: absolute;
+    top: 81px;
+    left: 154px;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+.downloadingUpdatesIcon1 {
+    position: absolute;
+    top: 81px;
+    left: 328px;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+.downloadingUpdatesIcon2 {
+    position: absolute;
+    top: 426px;
+    left: 154px;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+.downloadingUpdatesIcon3 {
+    position: absolute;
+    top: 426px;
+    left: 328px;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+.user {
+    position: absolute;
+    top: 7px;
+    left: 275px;
+    width: 37px;
+    height: 64px;
+}
+.lookbook {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 852px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    font-family: Urbanist;
+}
+
