@@ -5,8 +5,8 @@ import hearticon from './Icons/hearticon.png';
 import fitsicon from './Icons/fitsicon.png';
 import mixandmatchicon from './Icons/mixandmatchicon.png';
 import closeticon from './Icons/closeticon.png';
-import lessthanicon from './Icons/<icon.png';
-import greaterthanicon from './Icons/>icon.png';
+import lessthanicon from './Icons/arrowlefticon.png';
+import greaterthanicon from './Icons/arrowrighticon.png';
 
 
 const MixMatch = () => {

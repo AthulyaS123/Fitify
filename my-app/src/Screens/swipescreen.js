@@ -12,11 +12,6 @@ import fitsicon from './Icons/fitsicon.png';
 import mixandmatchicon from './Icons/mixandmatchicon.png';
 import closeticon from './Icons/closeticon.png';
 
-
-
-
-
-
 const SwipingScreen = () => {
   	return (
     		<div className={styles.swipingScreen}>
