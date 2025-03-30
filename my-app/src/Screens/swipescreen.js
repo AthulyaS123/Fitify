@@ -109,7 +109,7 @@ const SwipingScreen = () => {
           </Link>
         </div>
         <div className="col text-center">
-          <Link to="/" className="nav-link">
+          <Link to="/lookbook" className="nav-link">
             <img src={fitsicon} alt="Lookbook" width="40" />
             <div>Lookbook</div>
           </Link>

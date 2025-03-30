@@ -1,0 +1,12 @@
+export { default as redtop } from './redtop.png';
+export { default as top1 } from './top1.png';
+export { default as top2 } from './top2.png';
+export { default as top3 } from './top3.png';
+export { default as pant1 } from './pant1.png';
+export { default as pant2 } from './pant2.png';
+export { default as pant3 } from './pant3.png';
+export { default as pant4 } from './pant4.png';
+export { default as shoe1 } from './shoe1.png';
+export { default as shoe2 } from './shoe2.png';
+export { default as shoe3 } from './shoe3.png';
+export { default as shoe4 } from './shoe4.png';
