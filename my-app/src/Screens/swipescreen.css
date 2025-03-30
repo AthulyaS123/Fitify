@@ -2,10 +2,15 @@
 .container {
     font-family: 'Urbanist';
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     color: #666;
     font-weight: 600;
- }
+
+}
+
+.swiping-info {
+    min-height: 70vh;
+}
 
  .pageheader {
     font-size: 24px;
@@ -16,7 +21,7 @@
 
  .topnav {
     border-radius: 20px; 
-    background-color: #B1D1B3;   
+    background-color: #B1D1B3;
  }
 
  .navbar {
@@ -51,4 +56,8 @@
     padding: 10px;
  }
 
+ .clothing {
+    border-radius: 20px;
+    border: 1px solid #666;
+ }
  
