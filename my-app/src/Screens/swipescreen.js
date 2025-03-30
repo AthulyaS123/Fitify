@@ -1,5 +1,4 @@
-import { FunctionComponent } from 'react';
-import styles from './swipescreen.module.css';
+import { Link } from 'react-router-dom';
 import redtop from './Clothes/redtop.png';
 import preficon from './Icons/preficon.png';
 import hearticon from './Icons/hearticon.png';
@@ -11,40 +10,114 @@ import panticon from './Icons/panticon.png';
 import fitsicon from './Icons/fitsicon.png';
 import mixandmatchicon from './Icons/mixandmatchicon.png';
 import closeticon from './Icons/closeticon.png';
+import usericon from './Icons/user.png';
+import questionicon from './Icons/question.png';
+
+import './swipescreen.css';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const SwipingScreen = () => {
-  	return (
-    		<div className={styles.swipingScreen}>
-      			<div className={styles.swipingScreenChild} />
-      			<div className={styles.swipeToSave}>Swipe to Save</div>
-      			<img className={styles.cutIcon} alt="" src={mixandmatchicon} />
-      			<img className={styles.wardrobeIcon} alt="" src={closeticon} />
-      			<img className={styles.tuneIcon} alt="" src={preficon}/>
-      			<div className={styles.ellipseParent}>
-        				<div className={styles.groupChild} />
-        				<div className={styles.div}>?</div>
-          					</div>
-          					<img className={styles.heartIcon} alt="" src={hearticon} />
-          					<img className={styles.heartIcon1} alt="" src={swipehearticon} />
-          					<div className={styles.closet}>Closet</div>
-          					<div className={styles.swipe}>Swipe</div>
-          					<div className={styles.mixNMatch}>Mix ‘n Match</div>
-          					<div className={styles.lookbook}>Lookbook</div>
-          					<img className={styles.openBookIcon} alt="" src={fitsicon} />
-          					<div className={styles.swipingScreenItem} />
-          					<img className={styles.image10Icon} alt="" src={redtop} />
-          					<img className={styles.closeIcon} alt="" src={swipexicon} />
-          					<div className={styles.swipingScreenInner} />
-          					<div className={styles.rectangleDiv} />
-          					<img className={styles.womensTShirtIcon1} alt="" src={shirticon} />
-          					<img className={styles.trainersIcon} alt="" src={shoeicon} />
-          					<img className={styles.trousersIcon} alt="" src={panticon} />
-          					<div className={styles.pacsunMaroonBowneckContainer}>
-            						<p className={styles.pacsunMaroonBowneck}>Pacsun Maroon Bowneck Top</p>
-            						<p className={styles.pacsunMaroonBowneck}>$17.99</p>
-                    </div>
-                </div>);
-    };
-        				
+  return (
+    <div className="container">
+	
+      {/* Header */}
+      <div className="top-content row align-items-center">
+        <div className="col-1">
+			<img className="d-block mx-auto" src={preficon} alt="Preferences" width="30" />
+        </div>
+
+		<div className="col-1">
+			<img className="d-block mx-auto" src={questionicon} alt="Info" width="30" />
+        </div>
+
+        <div className="col-8">
+			<p className="pageheader">Swipe to Save</p>
+			</div>
+
+        <div className="col-2">
+			<img className="d-block mx-auto" src={usericon} alt="Profile" width="40" />
+        </div>
+
+      </div>
+
+	  {/* Category Tabs */}
+	<div className="topnav row">
+		<div className="col selected">
+			<img className="d-block mx-auto" src={shirticon} alt="Shirts" width="30" />
+		</div>
+
+		<div className="col">
+			<img className="d-block mx-auto" src={panticon} alt="Pants" width="30" />
+		</div>
+
+		<div className="col">
+			<img className="d-block mx-auto" src={shoeicon} alt="Shoes" width="30" />
+		</div>
+	</div>
+
+	<div className="swiping-info d-flex flex-column justify-content-center">
+
+		{/* Product Info */}
+		<div className="product-info row">
+        <div className="col-12">
+          <p>Pacsun Maroon Bowneck Top</p>
+          <p>$17.99</p>
+        </div>
+      </div>
+
+      {/* Swiping Area */}
+      <div className="row align-items-center">
+
+	  	<div className="col-2">
+		  <img className="swipe-icon d-block mx-auto" src={swipexicon} alt="Dislike" width="30" />
+        </div>
+
+        <div className="col">
+          <img className="clothing d-block mx-auto" src={redtop} alt="Red Top" width="220" />
+        </div>
+
+		<div className="col-2">
+          <img className="swipe-icon d-block mx-auto" src={swipehearticon} alt="Like" width="30" />
+        </div>
+
+      </div>
+
+
+
+	</div>
+	
+      {/* Bottom Navigation */}
+      <div className="row navbar fixed-bottom">
+	  	<div className="col text-center">
+          <Link to="/" className="nav-link-current">
+            <img src={hearticon} alt="Swipe" width="40" />
+            <div>Swipe</div>
+          </Link>
+        </div>
+
+        <div className="col text-center">
+          <Link to="/closet" className="nav-link">
+            <img src={closeticon} alt="Closet" width="40" />
+            <div>Closet</div>
+          </Link>
+        </div>
+        <div className="col text-center">
+          <Link to="/mix-and-match" className="nav-link">
+            <img src={mixandmatchicon} alt="Mix & Match" width="40" />
+            <div className="nav-link">Mix & Match</div>
+          </Link>
+        </div>
+        <div className="col text-center">
+          <Link to="/" className="nav-link">
+            <img src={fitsicon} alt="Lookbook" width="40" />
+            <div>Lookbook</div>
+          </Link>
+        </div>
+      </div>
+
+    </div>
+  );
+};
+
 export default SwipingScreen;
-        				
