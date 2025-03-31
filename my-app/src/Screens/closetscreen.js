@@ -1,71 +1,250 @@
-import { FunctionComponent } from 'react';
-import styles from './closetscreen.module.css';
-import preficon from './Icons/preficon.png';
-import hearticon from './Icons/hearticon.png';
-import swipehearticon from './Icons/swipehearticon.png';
-import shoeicon from './Icons/shoeicon.png';
-import swipexicon from './Icons/swipexicon.png';
-import shirticon from './Icons/shirticon.png';
-import panticon from './Icons/panticon.png';
-import fitsicon from './Icons/fitsicon.png';
-import mixandmatchicon from './Icons/mixandmatchicon.png';
-import closeticon from './Icons/closeticon.png';
-import trashicon from './Icons/trashicon.png';
+import React from 'react';
+import { useClothing } from "./clothingprovider";
+import { Link } from "react-router-dom";
+import "./closetscreen.css";
+
+import preficon from "./Icons/preficon.png";
+import questionicon from "./Icons/question.png";
+import usericon from "./Icons/user.png";
+import trashicon from "./Icons/trashicon.png";
+import shirticon from "./Icons/shirticon.png";
+import panticon from "./Icons/panticon.png";
+import shoeicon from "./Icons/shoeicon.png";
+import hearticon from "./Icons/hearticon.png";
+import closeticon from "./Icons/closeticon.png";
+import mixandmatchicon from "./Icons/mixandmatchicon.png";
+import fitsicon from "./Icons/fitsicon.png";
+
+function ClosetPage() {
+  const { likedItems } = useClothing(); // Get only liked clothing items
+
+  return (
+    <div className="container">
+      {/* Header */}
+      <div className="top-content row align-items-center">
+        <div className="col-1">
+          <img className="d-block mx-auto" src={preficon} alt="Preferences" width="30" />
+        </div>
+
+        <div className="col-1">
+          <img className="d-block mx-auto" src={questionicon} alt="Info" width="30" />
+        </div>
+
+        <div className="col-8">
+          <p className="pageheader">Closet</p>
+        </div>
+
+        <div className="col-2">
+          <img className="d-block mx-auto" src={usericon} alt="Profile" width="40" />
+        </div>
+      </div>
+
+      {/* Category Tabs */}
+      <div className="topnav row">
+        <div className="col selected">
+          <img className="d-block mx-auto" src={shirticon} alt="Shirts" width="30" />
+        </div>
+
+        <div className="col">
+          <img className="d-block mx-auto" src={panticon} alt="Pants" width="30" />
+        </div>
+
+        <div className="col">
+          <img className="d-block mx-auto" src={shoeicon} alt="Shoes" width="30" />
+        </div>
+      </div>
+
+      {/* Display Liked Clothes */}
+      <div className="container">
+        <div className="row g-3">
+          {likedItems.length > 0 ? (
+            likedItems.map((item) => (
+              <div key={item.id} className="col-4 col-md-3 col-lg-2 d-flex justify-content-center">
+                <div className="border rounded p-2" style={{ width: '100px', height: '140px', backgroundColor: '#fff' }}>
+                  <img
+                    src={item.img}
+                    alt={item.name}
+                    className="img-fluid rounded"
+                    style={{ objectFit: 'cover', height: '100%' }}
+                  />
+                </div>
+              </div>
+            ))
+          ) : (
+            <p className="text-center mt-3">You haven't liked any clothes yet. Start swiping!</p>
+          )}
+        </div>
+      </div>
+
+      <div className="text-end px-3 mt-3">
+        <img src={trashicon} alt="Delete" width="40" />
+      </div>
+
+      {/* Bottom Navigation */}
+      <div className="row navbar fixed-bottom">
+        <div className="col text-center">
+          <Link to="/" className="nav-link-current">
+            <img src={hearticon} alt="Swipe" width="40" />
+            <div>Swipe</div>
+          </Link>
+        </div>
+
+        <div className="col text-center">
+          <Link to="/closet" className="nav-link">
+            <img src={closeticon} alt="Closet" width="40" />
+            <div>Closet</div>
+          </Link>
+        </div>
+
+        <div className="col text-center">
+          <Link to="/mix-and-match" className="nav-link">
+            <img src={mixandmatchicon} alt="Mix & Match" width="40" />
+            <div className="nav-link">Mix & Match</div>
+          </Link>
+        </div>
+
+        <div className="col text-center">
+          <Link to="/lookbook" className="nav-link">
+            <img src={fitsicon} alt="Lookbook" width="40" />
+            <div>Lookbook</div>
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default ClosetPage;
 
 
-const ClosetPage = () => {
-  	return (
-    		<div className={styles.closetPage}>
-      			<div className={styles.closetPageChild} />
-      			<div className={styles.closetPageItem} />
-      			<div className={styles.closetPageInner} />
-      			<div className={styles.rectangleDiv} />
-      			<div className={styles.closetPageChild1} />
-      			<div className={styles.closetPageChild2} />
-      			<div className={styles.closetPageChild3} />
-      			<div className={styles.closetPageChild4} />
-      			<div className={styles.closetPageChild5} />
-      			<div className={styles.closetPageChild6} />
-      			<div className={styles.closetPageChild7} />
-      			<div className={styles.closetPageChild8} />
-      			<div className={styles.closetPageChild9} />
-      			<div className={styles.closetPageChild10} />
-      			<div className={styles.closetPageChild11} />
-      			<div className={styles.closetPageChild12} />
-      			<div className={styles.yourCloset}>Your Closet</div>
-      			<img className={styles.cutIcon} alt="" src={mixandmatchicon} />
-      			<img className={styles.wardrobeIcon} alt="" src={closeticon} />
-      			<img className={styles.image2Icon} alt="" src="image 2.png" />
-      			<img className={styles.image3Icon} alt="" src="image 3.png" />
-      			<img className={styles.image4Icon} alt="" src="image 4.png" />
-      			<img className={styles.image9Icon} alt="" src="image 9.png" />
-      			<img className={styles.tuneIcon} alt="" src={preficon} />
-      			<div className={styles.ellipseParent}>
-        				<div className={styles.groupChild} />
-        				<div className={styles.div}>?</div>
-          					</div>
-          					<img className={styles.heartIcon} alt="" src={hearticon} />
-          					<img className={styles.image1Icon} alt="" src="image 1.png" />
-          					<img className={styles.image5Icon} alt="" src="image 5.png" />
-          					<img className={styles.image6Icon} alt="" src="image 6.png" />
-          					<img className={styles.image7Icon} alt="" src="image 7.png" />
-          					<img className={styles.image8Icon} alt="" src="image 8.png" />
-          					<img className={styles.removeIcon} alt="" src={trashicon} />
-          					<div className={styles.closet}>Closet</div>
-          					<div className={styles.swipe}>Swipe</div>
-          					<div className={styles.mixNMatch}>Mix ‘n Match</div>
-          					<div className={styles.lookbook}>Lookbook</div>
-          					<img className={styles.openBookIcon} alt="" src={fitsicon} />
-          					<div className={styles.frameDiv} />
-          					<div className={styles.closetPageChild14} />
-          					<div className={styles.closetPageChild15} />
-          					<img className={styles.womensTShirtIcon1} alt="" src={shirticon}/>
-          					<img className={styles.trainersIcon} alt="" src={shoeicon} />
-          					<img className={styles.trousersIcon} alt="" src={panticon} />
-          					<div className={styles.closetPageChild16} />
-          					<div className={styles.closetPageChild17} />
-          					</div>);
-        				};
-        				
-        				export default ClosetPage;
-        				
+// import React from 'react';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import { Link } from "react-router-dom";
+// import { useClothing } from "./clothingprovider"; // Correct import
+
+// import redtop from "./Clothes/redtop.png";
+// import preficon from "./Icons/preficon.png";
+// import hearticon from "./Icons/hearticon.png";
+// import swipehearticon from "./Icons/swipehearticon.png";
+// import shoeicon from "./Icons/shoeicon.png";
+// import swipexicon from "./Icons/swipexicon.png";
+// import shirticon from "./Icons/shirticon.png";
+// import panticon from "./Icons/panticon.png";
+// import fitsicon from "./Icons/fitsicon.png";
+// import mixandmatchicon from "./Icons/mixandmatchicon.png";
+// import closeticon from "./Icons/closeticon.png";
+// import usericon from "./Icons/user.png";
+// import questionicon from "./Icons/question.png";
+// import trashicon from "./Icons/trashicon.png";
+
+// import "./closetscreen.css";
+// import * as Clothes from './Clothes';
+
+// const closetItems = [
+//   { id: 1, image: 'image 1.png' },
+//   { id: 2, image: 'image 2.png' },
+//   { id: 3, image: 'image 3.png' },
+//   { id: 4, image: 'image 4.png' },
+//   { id: 5, image: 'image 5.png' },
+//   { id: 6, image: 'image 6.png' },
+//   { id: 7, image: 'image 7.png' },
+//   { id: 8, image: 'image 8.png' },
+//   { id: 9, image: 'image 9.png' },
+// ];
+
+// function ClosetPage() {
+//   return (
+//     <div className="container">
+
+//       {/* Header */}
+//       <div className="top-content row align-items-center">
+//         <div className="col-1">
+//           <img className="d-block mx-auto" src={preficon} alt="Preferences" width="30" />
+//         </div>
+
+//         <div className="col-1">
+//           <img className="d-block mx-auto" src={questionicon} alt="Info" width="30" />
+//         </div>
+
+//         <div className="col-8">
+//           <p className="pageheader">Closet</p>
+//         </div>
+
+//         <div className="col-2">
+//           <img className="d-block mx-auto" src={usericon} alt="Profile" width="40" />
+//         </div>
+//       </div>
+
+//       {/* Category Tabs */}
+//       <div className="topnav row">
+//         <div className="col selected">
+//           <img className="d-block mx-auto" src={shirticon} alt="Shirts" width="30" />
+//         </div>
+
+//         <div className="col">
+//           <img className="d-block mx-auto" src={panticon} alt="Pants" width="30" />
+//         </div>
+
+//         <div className="col">
+//           <img className="d-block mx-auto" src={shoeicon} alt="Shoes" width="30" />
+//         </div>
+//       </div>
+
+//       {/* Closet Content*/}
+//       <div className="container">
+//         <div className="row g-3">
+//           {closetItems.map((item) => (
+//             <div key={item.id} className="col-4 col-md-3 col-lg-2 d-flex justify-content-center">
+//               <div className="border rounded p-2" style={{ width: '100px', height: '140px', backgroundColor: '#fff' }}>
+//                 <img
+//                   src={item.image}
+//                   alt={`Clothing ${item.id}`}
+//                   className="img-fluid rounded"
+//                   style={{ objectFit: 'cover', height: '100%' }}
+//                 />
+//               </div>
+//             </div>
+//           ))}
+//         </div>
+//       </div>
+
+//       <div className="text-end px-3 mt-3">
+//         <img src={trashicon} alt="Delete" width="40" />
+//       </div>
+
+      
+//       {/* Bottom Navigation */}
+//       <div className="row navbar fixed-bottom">
+//         <div className="col text-center">
+//           <Link to="/" className="nav-link-current">
+//             <img src={hearticon} alt="Swipe" width="40" />
+//             <div>Swipe</div>
+//           </Link>
+//         </div>
+
+//         <div className="col text-center">
+//           <Link to="/closet" className="nav-link">
+//             <img src={closeticon} alt="Closet" width="40" />
+//             <div>Closet</div>
+//           </Link>
+//         </div>
+
+//         <div className="col text-center">
+//           <Link to="/mix-and-match" className="nav-link">
+//             <img src={mixandmatchicon} alt="Mix & Match" width="40" />
+//             <div className="nav-link">Mix & Match</div>
+//           </Link>
+//         </div>
+
+//         <div className="col text-center">
+//           <Link to="/lookbook" className="nav-link">
+//             <img src={fitsicon} alt="Lookbook" width="40" />
+//             <div>Lookbook</div>
+//           </Link>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default ClosetPage;
