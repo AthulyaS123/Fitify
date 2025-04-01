@@ -108,7 +108,7 @@ const SwipingScreen = () => {
       {/* Bottom Navigation */}
       <div className={`row navbar fixed-bottom ${selectedType}-selected`}>
         <div className="col text-center">
-          <Link to="/" className="nav-link">
+          <Link to="/" className="nav-link-current">
             <img src={hearticon} alt="Swipe" width="40" />
             <div>Swipe</div>
           </Link>

@@ -10,8 +10,8 @@ import trashicon from "./Icons/trashicon.png";
 import shirticon from "./Icons/shirticon.png";
 import panticon from "./Icons/panticon.png";
 import shoeicon from "./Icons/shoeicon.png";
-import hearticon from "./Icons/hearticon.png";
-import closeticon from "./Icons/closeticon.png";
+import hearticon from "./Icons/whiteheart.png";
+import closeticon from "./Icons/bluewardrobe.png";
 import mixandmatchicon from "./Icons/mixandmatchicon.png";
 import fitsicon from "./Icons/fitsicon.png";
 
