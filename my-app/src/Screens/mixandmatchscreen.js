@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 import { FunctionComponent } from 'react';
 import preficon from './Icons/preficon.png';
-import hearticon from './Icons/hearticon.png';
+import hearticon from './Icons/whiteheart.png';
 import fitsicon from './Icons/fitsicon.png';
-import mixandmatchicon from './Icons/mixandmatchicon.png';
+import mixandmatchicon from './Icons/bluescissors.png';
 import closeticon from './Icons/closeticon.png';
 import usericon from './Icons/user.png';
 import questionicon from './Icons/question.png';
@@ -86,7 +86,7 @@ const MixMatch = () => {
 		{/* Bottom Navigation */}
 		<div className="row navbar fixed-bottom">
 	  	<div className="col text-center">
-          <Link to="/" className="nav-link-current">
+          <Link to="/" className="nav-link">
             <img src={hearticon} alt="Swipe" width="40" />
             <div>Swipe</div>
           </Link>
@@ -99,7 +99,7 @@ const MixMatch = () => {
           </Link>
         </div>
         <div className="col text-center">
-          <Link to="/mix-and-match" className="nav-link">
+          <Link to="/mix-and-match" className="nav-link-current">
             <img src={mixandmatchicon} alt="Mix & Match" width="40" />
             <div className="nav-link">Mix & Match</div>
           </Link>
