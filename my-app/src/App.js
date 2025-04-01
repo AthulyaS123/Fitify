@@ -29,26 +29,3 @@ function App() {
 }
 
 export default App;
-
-
-
-// function App() {
-//   return (
-//     <Router>
-//       <div className="App">
-//         <Routes>
-//           <Route path="/" element={<SwipeScreen />} />
-//           <Route path="/closet" element={<ClosetScreen />} />
-//           <Route path="/mix-and-match" element={<MixAndMatchScreen />} />
-//           <Route path="/landing" element={<LandingScreen />} />
-//           <Route path="/create-account" element={<LandingScreen />} />
-//           <Route path="/filter" element={<FilterScreen />} />
-//           <Route path="/lookbook" element={<LookbookScreen />} />
-//           <Route path="/outfit" element={<OutfitScreen />} />
-//         </Routes>
-//       </div>
-//     </Router> 
-//   );
-// }
-
-// export default App;
