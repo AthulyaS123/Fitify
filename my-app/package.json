@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://athulyas123.github.io/fitify",
+  "homepage": "https://athulyas123.github.io/Fitify",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
